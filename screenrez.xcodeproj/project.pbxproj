@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48FB4CE1384BC4200BD1E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FB4CD1384BC4200BD1E15 /* Foundation.framework */; };
+		C48FB4D11384BC4200BD1E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FB4D01384BC4200BD1E15 /* main.m */; };
+		C48FB4DB1384BDAD00BD1E15 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FB4DA1384BDAD00BD1E15 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C48FB4C71384BC3E00BD1E15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C48FB4C91384BC4200BD1E15 /* screenrez */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = screenrez; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48FB4CD1384BC4200BD1E15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C48FB4D01384BC4200BD1E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48FB4D31384BC4200BD1E15 /* screenrez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "screenrez-Prefix.pch"; sourceTree = "<group>"; };
+		C48FB4D41384BC4200BD1E15 /* screenrez.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = screenrez.1; sourceTree = "<group>"; };
+		C48FB4DA1384BDAD00BD1E15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48FB4C61384BC3E00BD1E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48FB4CE1384BC4200BD1E15 /* Foundation.framework in Frameworks */,
+				C48FB4DB1384BDAD00BD1E15 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48FB4BE1384BC3E00BD1E15 = {
+			isa = PBXGroup;
+			children = (
+				C48FB4CF1384BC4200BD1E15 /* screenrez */,
+				C48FB4CC1384BC4200BD1E15 /* Frameworks */,
+				C48FB4CA1384BC4200BD1E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48FB4CA1384BC4200BD1E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48FB4C91384BC4200BD1E15 /* screenrez */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48FB4CC1384BC4200BD1E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48FB4DA1384BDAD00BD1E15 /* AppKit.framework */,
+				C48FB4CD1384BC4200BD1E15 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48FB4CF1384BC4200BD1E15 /* screenrez */ = {
+			isa = PBXGroup;
+			children = (
+				C48FB4D01384BC4200BD1E15 /* main.m */,
+				C48FB4D41384BC4200BD1E15 /* screenrez.1 */,
+				C48FB4D21384BC4200BD1E15 /* Supporting Files */,
+			);
+			path = screenrez;
+			sourceTree = "<group>";
+		};
+		C48FB4D21384BC4200BD1E15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48FB4D31384BC4200BD1E15 /* screenrez-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48FB4C81384BC3E00BD1E15 /* screenrez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48FB4D71384BC4200BD1E15 /* Build configuration list for PBXNativeTarget "screenrez" */;
+			buildPhases = (
+				C48FB4C51384BC3E00BD1E15 /* Sources */,
+				C48FB4C61384BC3E00BD1E15 /* Frameworks */,
+				C48FB4C71384BC3E00BD1E15 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = screenrez;
+			productName = screenrez;
+			productReference = C48FB4C91384BC4200BD1E15 /* screenrez */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48FB4C01384BC3E00BD1E15 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C48FB4C31384BC3E00BD1E15 /* Build configuration list for PBXProject "screenrez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C48FB4BE1384BC3E00BD1E15;
+			productRefGroup = C48FB4CA1384BC4200BD1E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48FB4C81384BC3E00BD1E15 /* screenrez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48FB4C51384BC3E00BD1E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48FB4D11384BC4200BD1E15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C48FB4D51384BC4200BD1E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C48FB4D61384BC4200BD1E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C48FB4D81384BC4200BD1E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "screenrez/screenrez-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C48FB4D91384BC4200BD1E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "screenrez/screenrez-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48FB4C31384BC3E00BD1E15 /* Build configuration list for PBXProject "screenrez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48FB4D51384BC4200BD1E15 /* Debug */,
+				C48FB4D61384BC4200BD1E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48FB4D71384BC4200BD1E15 /* Build configuration list for PBXNativeTarget "screenrez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48FB4D81384BC4200BD1E15 /* Debug */,
+				C48FB4D91384BC4200BD1E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48FB4C01384BC3E00BD1E15 /* Project object */;
+}
