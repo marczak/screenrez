@@ -16,8 +16,8 @@ int main (int argc, const char * argv[])
 
   NSRect mainScreenRect;
   mainScreenRect = [[[NSScreen screens] objectAtIndex:0] visibleFrame];
-  printf("%d, %d", (int)mainScreenRect.size.width,
-                   (int)mainScreenRect.size.height);
+  printf("%d, %d\n", (int)mainScreenRect.size.width,
+                     (int)mainScreenRect.size.height);
 
   [pool drain];
   return 0;

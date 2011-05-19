@@ -1,0 +1,7 @@
+Seems there are plenty of Mac admins that want to retrieve the current screen resolution in a script. This is a quick-and-dirty program that will do just that.
+
+Future plans:
+- Usage/help.
+- XML output.
+- Report number of screens attached and resolutions of selected screen.
+- Your suggestion here.
