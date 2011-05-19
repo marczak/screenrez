@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C48FB4CE1384BC4200BD1E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FB4CD1384BC4200BD1E15 /* Foundation.framework */; };
 		C48FB4D11384BC4200BD1E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FB4D01384BC4200BD1E15 /* main.m */; };
-		C48FB4DB1384BDAD00BD1E15 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FB4DA1384BDAD00BD1E15 /* AppKit.framework */; };
+		C48FB4DD1384C32A00BD1E15 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FB4DC1384C32A00BD1E15 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 		C48FB4D01384BC4200BD1E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C48FB4D31384BC4200BD1E15 /* screenrez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "screenrez-Prefix.pch"; sourceTree = "<group>"; };
 		C48FB4D41384BC4200BD1E15 /* screenrez.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = screenrez.1; sourceTree = "<group>"; };
-		C48FB4DA1384BDAD00BD1E15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppKit.framework; sourceTree = "<group>"; };
+		C48FB4DC1384C32A00BD1E15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48FB4CE1384BC4200BD1E15 /* Foundation.framework in Frameworks */,
-				C48FB4DB1384BDAD00BD1E15 /* AppKit.framework in Frameworks */,
+				C48FB4DD1384C32A00BD1E15 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 		C48FB4CC1384BC4200BD1E15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C48FB4DA1384BDAD00BD1E15 /* AppKit.framework */,
+				C48FB4DC1384C32A00BD1E15 /* AppKit.framework */,
 				C48FB4CD1384BC4200BD1E15 /* Foundation.framework */,
 			);
 			name = Frameworks;
