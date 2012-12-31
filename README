@@ -1,7 +1,28 @@
 Seems there are plenty of Mac admins that want to retrieve the current screen resolution in a script. This is a quick-and-dirty program that will do just that.
 
-Future plans:
-- Usage/help.
-- XML output.
-- Report number of screens attached and resolutions of selected screen.
-- Your suggestion here.
+Example output:
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Screens</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>iMac</string>
+			<key>Resolution</key>
+			<string>1920x1080</string>
+			<key>ResolutionSansDockAndMenu</key>
+			<string>1920x1000</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>HP L1906</string>
+			<key>Resolution</key>
+			<string>1280x1024</string>
+			<key>ResolutionSansDockAndMenu</key>
+			<string>1280x1024</string>
+		</dict>
+	</array>
+</dict>
+</plist>
