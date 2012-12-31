@@ -10,6 +10,8 @@
 		C48FB4CE1384BC4200BD1E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FB4CD1384BC4200BD1E15 /* Foundation.framework */; };
 		C48FB4D11384BC4200BD1E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FB4D01384BC4200BD1E15 /* main.m */; };
 		C48FB4DD1384C32A00BD1E15 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48FB4DC1384C32A00BD1E15 /* AppKit.framework */; };
+		D440D5CC16914AAB00F38A42 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D440D5CB16914AAB00F38A42 /* IOKit.framework */; };
+		D440D5D616914B5D00F38A42 /* NSScreen+DisplayName.m in Sources */ = {isa = PBXBuildFile; fileRef = D440D5D516914B5D00F38A42 /* NSScreen+DisplayName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,9 @@
 		C48FB4D31384BC4200BD1E15 /* screenrez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "screenrez-Prefix.pch"; sourceTree = "<group>"; };
 		C48FB4D41384BC4200BD1E15 /* screenrez.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = screenrez.1; sourceTree = "<group>"; };
 		C48FB4DC1384C32A00BD1E15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D440D5CB16914AAB00F38A42 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		D440D5D416914B5D00F38A42 /* NSScreen+DisplayName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSScreen+DisplayName.h"; path = "../NSScreen+DisplayName.h"; sourceTree = "<group>"; };
+		D440D5D516914B5D00F38A42 /* NSScreen+DisplayName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSScreen+DisplayName.m"; path = "../NSScreen+DisplayName.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			files = (
 				C48FB4CE1384BC4200BD1E15 /* Foundation.framework in Frameworks */,
 				C48FB4DD1384C32A00BD1E15 /* AppKit.framework in Frameworks */,
+				D440D5CC16914AAB00F38A42 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,7 @@
 		C48FB4CC1384BC4200BD1E15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D440D5CB16914AAB00F38A42 /* IOKit.framework */,
 				C48FB4DC1384C32A00BD1E15 /* AppKit.framework */,
 				C48FB4CD1384BC4200BD1E15 /* Foundation.framework */,
 			);
@@ -75,6 +82,8 @@
 		C48FB4CF1384BC4200BD1E15 /* screenrez */ = {
 			isa = PBXGroup;
 			children = (
+				D440D5D416914B5D00F38A42 /* NSScreen+DisplayName.h */,
+				D440D5D516914B5D00F38A42 /* NSScreen+DisplayName.m */,
 				C48FB4D01384BC4200BD1E15 /* main.m */,
 				C48FB4D41384BC4200BD1E15 /* screenrez.1 */,
 				C48FB4D21384BC4200BD1E15 /* Supporting Files */,
@@ -138,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48FB4D11384BC4200BD1E15 /* main.m in Sources */,
+				D440D5D616914B5D00F38A42 /* NSScreen+DisplayName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +241,7 @@
 				C48FB4D91384BC4200BD1E15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
